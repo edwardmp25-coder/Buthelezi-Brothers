@@ -612,21 +612,23 @@ body {
 
 .footer-location {
     text-align: right;
-    padding-right: 10px;
-    margin-top: 12px;
+    padding-right: 5px;
+    margin-top: 8px;
 }
 
 .location-title {
-    font-size: 14px;
-    margin-bottom: 6px;
+    font-size: 11px;
+    margin-bottom: 4px;
 }
 
 .footer-location img {
-    width: 95px;
-    height: 62px;
+    width: 70px;
+    height: 45px;
+    object-fit: cover;
 }
 
 .footer-location a {
-    border-radius: 9px;
+    border-radius: 6px;
+    border-width: 1px;
 }
 }

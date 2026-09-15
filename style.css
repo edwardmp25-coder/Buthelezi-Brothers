@@ -403,29 +403,6 @@ section form button {
 section form button:hover {
     background-color: #a94f4f;
 }
-section:first-of-type {
-    background-color: #111;
-    color: #e5e5e5;
-    padding: 40px 30px;
-    border-radius: 12px;
-}
-
-section:first-of-type h2 {
-    color: #c96a6a;
-}
-
-section:first-of-type h3 {
-    color: #f0caca;
-}
-
-section:first-of-type p {
-    color: #e5e5e5;
-    line-height: 1.7;
-}
-
-section:first-of-type strong {
-    color: #ffffff;
-}
 
 .footer-legal {
     display: flex;
@@ -444,6 +421,80 @@ section:first-of-type strong {
 .footer-legal a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.legal-section {
+    background-color: #111;
+    color: #e5e5e5;
+    padding: 40px 30px;
+    border-radius: 12px;
+}
+
+.legal-section h2 {
+    color: #c96a6a;
+}
+
+.legal-section h3 {
+    color: #f0caca;
+}
+
+.legal-section p {
+    color: #e5e5e5;
+    line-height: 1.7;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-card img {
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover img {
+    transform: scale(1.12);
+}
+
+.category-card h3 {
+    margin-top: 18px;
+}
+
+.category-card p {
+    margin-top: 10px;
+}
+
+.category-card h3 {
+    transform: translateY(30px);
+}
+
+.category-card p {
+    transform: translateY(30px);
 }
 
 @media (max-width: 600px) {

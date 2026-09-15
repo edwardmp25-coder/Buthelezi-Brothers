@@ -581,15 +581,20 @@ footer {
     position: relative;
 }
 
+footer {
+    position: relative;
+    padding-bottom: 85px;
+}
+
 .footer-contact {
-    margin-bottom: 5px;
+    margin-bottom: 45px;
     gap: 25px;
 }
 
 .footer-location {
     position: absolute;
     right: 8px;
-    top: 70px;
+    bottom: 90px;
     text-align: right;
     margin: 0;
     padding: 0;
